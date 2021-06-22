@@ -6,12 +6,12 @@ from gevent.pywsgi import WSGIServer
 
 # Import Keras dependencies
 import tensorflow as tf
-from tensorflow.python.keras.optimizers import Adam
+from tf.python.keras.optimizers import Adam
 
-from tensorflow.keras.models import model_from_json
-from tensorflow.python.framework import ops
+from tf.keras.models import model_from_json
+from tf.python.framework import ops
 ops.reset_default_graph()
-from tensorflow.python.keras.preprocessing import image
+from tf.python.keras.preprocessing import image
 
 # Import other dependecies
 import numpy as np
