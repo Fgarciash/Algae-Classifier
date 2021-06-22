@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
 # Import Keras dependencies
+import tensorflow as tf
 from tensorflow.python.keras.optimizers import Adam
 
 from tensorflow.keras.models import model_from_json
@@ -27,8 +28,8 @@ app = Flask(__name__)
 # ::: Prepare Keras Model :::
 # Model files
 
-MODEL_ARCHITECTURE = 'model_adam_20210613_01.json'
-MODEL_WEIGHTS = 'model_5_eopchs_adam_20210613_01.h5'
+MODEL_ARCHITECTURE = './model_adam_20210613_01.json'
+MODEL_WEIGHTS = './model_5_eopchs_adam_20210613_01.h5'
 
 
 # Load the model from external files
@@ -39,7 +40,7 @@ model = model_from_json(loaded_model_json)
 
 # Get weights into the model
 model.load_weights(MODEL_WEIGHTS)
-print('Model loaded. Check http://127.0.0.1:5000/')
+#print('Model loaded. Check http://127.0.0.1:5000/')
 
 
 # ::: MODEL FUNCTIONS :::
@@ -106,4 +107,4 @@ def upload():
 		
 
 if __name__ == '__main__':
-	app.run(debug = True) ## para implementar en Heroku debe estar en False
+	app.run(debug = True) 
