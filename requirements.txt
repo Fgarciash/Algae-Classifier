@@ -33,7 +33,7 @@ rsa==4.7.2
 scipy==1.4.1
 setuptools==52.0.0
 six==1.16.0
-tensorboard==1.16.0
+tensorboard==1.15.0
 tensorboard-plugin-wit==1.6.0.post3
 tensorflow-cpu==1.15.0
 tensorflow-estimator==1.15.1
