@@ -85,7 +85,7 @@ def index():
 def upload():
 
 	# Constants:
-	classes = {'ESPECIE': ['especie1', 'especie2', 'especie3', 'especie4', 'especie5', 'especie6', 'especie7', 'especie8', 'especie9', 'especie10']}
+	classes = {'ESPECIE': ['Nothogenia fastigiata', 'Ahnfeltiopsis durvillei', 'Centroceras clavulatum', 'Mazzaella laminarioides', 'Porphyra columbina', 'Chondracanthus chamissoi', 'Ulva lactuca', 'Lessonia Sp', 'Macrocystis pyrifera', 'Durvillaea antarctica']}
 
 	if request.method == 'POST':
 
