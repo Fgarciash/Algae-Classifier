@@ -5,13 +5,13 @@ from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
 # Import Keras dependencies
-import tensorflow as tf
-from tf.python.keras.optimizers import Adam
+import tensorflow
+from tensorflow.python.keras.optimizers import Adam
 
-from tf.keras.models import model_from_json
-from tf.python.framework import ops
+from tensorflow.keras.models import model_from_json
+from tensorflow.python.framework import ops
 ops.reset_default_graph()
-from tf.python.keras.preprocessing import image
+from tensorflow.python.keras.preprocessing import image
 
 # Import other dependecies
 import numpy as np
