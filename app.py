@@ -29,8 +29,8 @@ app = Flask(__name__)
 # ::: Prepare Keras Model :::
 # Model files
 
-MODEL_ARCHITECTURE = 'models/model_adam_20210623_01.json'
-MODEL_WEIGHTS = 'models/model_80_eopchs_adam_20210623_01.h5'
+MODEL_ARCHITECTURE = 'models/model_adam_20210624_01.json'
+MODEL_WEIGHTS = 'models/model_80_eopchs_adam_20210624_01.h5'
 
 
 # Load the model from external files
