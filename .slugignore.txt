@@ -1,8 +1,7 @@
 
-__pycache__/*
 
-uploads/
-ValidationSamples/
+/uploads
+/ValidationSamples
 
 # Jupyter Notebook
 .ipynb_checkpoints
