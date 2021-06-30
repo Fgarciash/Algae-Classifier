@@ -45,7 +45,7 @@ $(document).ready(function () {
                 // Get and display the result
                 $('.loader').hide();
                 $('#result').fadeIn(600);
-                $('#result').text(' The alga is:  ' + data);
+                $('#result').text(' The seaweed is:  ' + data);
                 console.log('So does this');
             },
         });
