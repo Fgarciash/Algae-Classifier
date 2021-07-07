@@ -726,7 +726,11 @@ plt.show()
 ![png](Algae-Clasiffier_files2/Algae-Clasiffier_51_0.png)
 
 
+### Next steps
 
-```python
+It is necessary to increase the images not only in number, but also in species quantity,  geographical places and times of the day. Since the precision results obtained are exclusive for particular conditions.
 
-```
+If you want to cooperate with this development you can contact me at:
+
+Félix Garcias H.
+f.garciash@uc.cl
