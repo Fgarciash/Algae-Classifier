@@ -12,7 +12,7 @@ For this first version, approximately 2.300 images were used, which were separat
 
 The images were captured in the following geographic zone:
 
-![png](Map.png)
+![png](Algae-Clasiffier_files2/Map.PNG)
 
 
 
