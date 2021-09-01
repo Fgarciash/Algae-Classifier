@@ -892,7 +892,7 @@ plot_confusion_matrix(confusion_mtx,categories, cmap=None, normalize=False)
 ```
 
 
-![png](Algae-Clasiffier_files2/Algae-Clasiffier_38_0.png)
+![png](Algae-Clasiffier_files/Algae-Clasiffier_38_0.png)
 
 
 ### Saving the weights and the model to implement in flask
@@ -996,7 +996,7 @@ plt.show()
 ```
 
 
-![png](Algae-Clasiffier_files2/Algae-Clasiffier_49_0.png)
+![png](Algae-Clasiffier_files/Algae-Clasiffier_49_0.png)
 
 
 More images of the test sample with real label and predicted
@@ -1018,7 +1018,7 @@ plt.show()
 ```
 
 
-![png](Algae-Clasiffier_files2/Algae-Clasiffier_51_0.png)
+![png](Algae-Clasiffier_files/Algae-Clasiffier_51_0.png)
 
 
 ### Next steps
