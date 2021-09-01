@@ -29,8 +29,8 @@ app = Flask(__name__)
 # ::: Prepare Keras Model :::
 # Model files
 
-MODEL_ARCHITECTURE = 'models/model_adam_20210624_01.json'
-MODEL_WEIGHTS = 'models/model_80_eopchs_adam_20210624_01.h5'
+MODEL_ARCHITECTURE = 'models/model_adam_20210830_tr.json'
+MODEL_WEIGHTS = 'models/model_80_eopchs_adam_20210830_tr.h5'
 
 
 # Load the model from external files
@@ -85,7 +85,7 @@ def index():
 def upload():
 
 	# Constants:
-	classes = {'ESPECIE': ['Nothogenia fastigiata', 'Ahnfeltiopsis durvillei', 'Centroceras clavulatum', 'Mazzaella laminarioides', 'Porphyra columbina', 'Chondracanthus chamissoi', 'Ulva lactuca', 'Lessonia Sp', 'Macrocystis pyrifera', 'Durvillaea antarctica','Ulva intestinalis', 'other' ]}
+	classes = {'ESPECIE': ['Mazzaella canaliculata', 'Ahnfeltiopsis furcellata', 'Plocamium cartilagineum', 'Centroceras clavulatum', 'Mazzaella laminarioides', 'Chondracanthus chamissoi', 'Pyropia spp.', 'Lessonia trabeculata', 'Macrocystis pyrifera', 'Durvillaea incurvata', 'Colpomenia sinuosa','Ulva spp.','other']}
 
 	if request.method == 'POST':
 
