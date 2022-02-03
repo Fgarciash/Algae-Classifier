@@ -8,7 +8,7 @@ This projects includes both back-end (Keras, Flask with dependencies) and the im
 
 This app is designed for those people who they like to walk through the intertidal rocky and the coast in general. Therefore, this model was trained with images of stranded algae on the beach and others algae that we find naturally on rocks. For images taken in laboratory circumstances or other situation, the model could present greater percentage of error to classify.
 
-For this first version, approximately 3.890 images were used, which were separated into a training, test and validation sample (3.311, 585 and 67, respectively).
+For this first version, approximately 5.874 images were used, which were separated into a training, test and validation sample (4.992, 882 and 174, respectively).
 
 The images were captured in the following geographic zone:
 
